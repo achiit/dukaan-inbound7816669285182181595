@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Darshan Travel Agency – Luxury Cars &amp; Coaches</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0c0b09;--surface:#16140f;--ink:#f3ece0;--muted:#a79d8c;--gold:#c9a45c;--gold2:#e8cf94;--line:#2c271d;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Montserrat,system-ui,sans-serif;font-weight:300;line-height:1.8}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;margin:0 0 .4em;line-height:1.15}
+p{margin:0 0 1em;color:var(--muted)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.logo{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold2)}
+.logo small{display:block;font-family:Montserrat,sans-serif;font-size:.6rem;letter-spacing:.4em;color:var(--muted)}
+nav a{margin-left:26px;font-size:.72rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
+nav a:hover{color:var(--gold)}
+.eyebrow{font-size:.7rem;letter-spacing:.45em;text-transform:uppercase;color:var(--gold)}
+.hero{padding:110px 0 100px;text-align:center}
+.hero h1{font-size:clamp(2.5rem,8vw,5rem);margin:20px 0}
+.hero h1 em{color:var(--gold2);font-style:italic}
+.hero p{max-width:540px;margin:0 auto 2.4em;font-size:.98rem}
+.btn{display:inline-block;padding:15px 38px;border:1px solid var(--gold);color:var(--gold2);font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;background:transparent;transition:.3s;margin:6px}
+.btn.fill{background:var(--gold);color:#0c0b09}
+.btn:hover{background:var(--gold2);color:#0c0b09}
+.rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);border:0;margin:0}
+.stats{display:flex;flex-wrap:wrap;justify-content:center;gap:24px 70px;padding:50px 0;text-align:center}
+.stats b{display:block;font-family:"Cormorant Garamond",Georgia,serif;font-size:2.8rem;font-weight:400;color:var(--gold2);line-height:1}
+.stats span{font-size:.65rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted)}
+section{padding:90px 0}
+.head{text-align:center;margin-bottom:50px}
+.head h2{font-size:clamp(2rem,5vw,3rem)}
+.grid{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);padding:40px 30px;text-align:center;transition:.3s}
+.card:hover{border-color:var(--gold)}
+.card .ic{font-size:1.8rem;margin-bottom:14px;filter:grayscale(.3)}
+.card h3{font-size:1.5rem;color:var(--gold2)}
+.card p{margin:0;font-size:.9rem}
+.big .card{padding:60px 36px}
+.contact{border:1px solid var(--gold);padding:70px 24px;text-align:center;background:radial-gradient(circle at 50% 0,#211b0f,var(--bg) 70%)}
+.contact h2{font-size:clamp(2rem,5vw,3rem)}
+footer{text-align:center;padding:36px 0;font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">Darshan<small>Travel Agency</small></div>
+  <nav><a href="#fleet">Fleet</a><a href="#why">Why Us</a><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+  <div class="eyebrow">Premium Travel · Cars &amp; Coaches</div>
+  <h1>Travel in <em>refined</em><br>comfort.</h1>
+  <p>Immaculate vehicles, courteous chauffeurs and service you can rely on, for every journey from a private ride to a grand wedding party.</p>
+  <a class="btn fill" href="#contact">Reserve Your Ride</a>
+  <a class="btn" href="#fleet">Explore the Fleet</a>
+</div>
+<hr class="rule">
+<div class="stats">
+  <div><b>5</b><span>Luxury Cars</span></div>
+  <div><b>2</b><span>Coaches</span></div>
+  <div><b>Best</b><span>Service</span></div>
+  <div><b>100%</b><span>Reliability</span></div>
+</div>
+<hr class="rule">
+
+<section id="fleet">
+  <div class="head"><div class="eyebrow">The Collection</div><h2>Our Fleet</h2></div>
+  <div class="grid big">
+    <div class="card"><div class="ic">🚘</div><h3>The Cars</h3><p>Five meticulously maintained, air-conditioned cars for family journeys, airport transfers, pilgrimages and outstation travel.</p></div>
+    <div class="card"><div class="ic">🚌</div><h3>The Coaches</h3><p>Two spacious coaches for group tours, weddings and corporate travel, with comfort for every guest.</p></div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="head"><div class="eyebrow">The Darshan Promise</div><h2>Why Travellers Trust Us</h2></div>
+  <div class="grid">
+    <div class="card"><div class="ic">✦</div><h3>Best Service</h3><p>Attentive, professional chauffeurs from booking to drop-off.</p></div>
+    <div class="card"><div class="ic">◈</div><h3>Reliability</h3><p>On-time pickups and well-serviced vehicles, always.</p></div>
+    <div class="card"><div class="ic">❖</div><h3>Pristine Comfort</h3><p>Fresh, spotless interiors for a calm, relaxed ride.</p></div>
+    <div class="card"><div class="ic">◇</div><h3>Transparent Pricing</h3><p>Clear quotes with no hidden charges.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div class="eyebrow">Reservations</div>
+    <h2>Begin Your Journey</h2>
+    <p style="max-width:460px;margin:0 auto 2em">Tell us where you wish to go and we will arrange everything.</p>
+    <a class="btn fill" id="call" href="#contact">Call Now</a>
+    <a class="btn" id="wa" href="#contact">WhatsApp</a>
+  </div>
+</section>
+
+<footer>© Darshan Travel Agency</footer>
+</div>
+<script>
+// Add your number (country code, digits only), e.g. "919876543210"
+var PHONE = "";
+if (PHONE) {
+  document.getElementById("call").href = "tel:+" + PHONE;
+  document.getElementById("wa").href = "https://wa.me/" + PHONE;
+}
+</script>
+</body>
+</html>
